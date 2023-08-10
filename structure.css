@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/star-trek.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    width: 100%;
+    min-width: 500px;
+    margin: 0px auto 10px auto;
+}
+
+#header {
+    width: 99.9%;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
+    height: 60px;
+    background-image: url("images/assembly.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #8a8a8a;
+    border-color:  rgb(110, 0, 0);
+}
+
+#header h2 {
+    margin-top: 15px;
+}
+
+h1 {
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
+#centerDoc {
+    float: right;
+    width: 85%;
+    background-color: rgba(168, 168, 168, 0.6);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(110, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+video {
+    float: left;
+    clear: both;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+#video {
+    float: left;
+    border: #000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+}
+
+#video p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#navigation {
+    min-width: 120px;
+    float: left;
+    width: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(110, 0, 0);
+    border-radius: 10px;
+}
+
+nav {
+    margin-left: 20px;
+    padding: 10px;
+    background-image: url("images/grey.jpg");
+    background-size: cover;
+    opacity: 70%;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.358);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+nav h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+body {
+    background-color: #222222;
+}
+
+.theImage {
+    float: right;
+    border: #000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#footer {
+    float: right;
+    width: 99.9%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    height: 60px;
+    margin-top: 20px;
+    background-image: url("images/assembly.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    color: #ffffff;
+    border-color: rgb(110, 0, 0);
+}
+
+#footer p {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1800px){
+    #centerDoc {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #centerDoc {
+        width: 70%;
+    }
+    img {
+        width: 300px;
+        }
+    video {
+        width: 300px;
+    }
+    h1 {
+        color: rgb(110, 0, 0);
+    }
+}
+
+@media screen and (max-width: 700px){
+    #centerDoc {
+        width: 55%;
+    }
+    img {
+    width: 200px;
+    }
+    video {
+        width: 200px;
+    }
+    h1 {
+        color: rgb(0, 65, 11);
+    }
+}

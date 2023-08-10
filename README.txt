@@ -1,0 +1,1 @@
+This is my first "project" that looks a somewhat like a real website, just a bit, from 2002
